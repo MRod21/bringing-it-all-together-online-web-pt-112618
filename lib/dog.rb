@@ -33,7 +33,9 @@ class Dog
   end
   
   def self.find_by_name(name)
-    sql = "SELECT * FROM dogs WHERE name is "
+    sql = "SELECT * FROM dogs WHERE name = ? LIMIT 1"
+    
+    
   
   def save
     if self.id
