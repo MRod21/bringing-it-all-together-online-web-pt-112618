@@ -41,7 +41,7 @@ class Dog
   end
   
   def update
-    sql = "UPDATE dogs WHERE name "
+    sql = "UPDATE dogs SET "
   
   def save
     if self.id
