@@ -41,7 +41,7 @@ class Dog
   end
   
   def update
-    
+    sql = "UPDATE "
   
   def save
     if self.id
